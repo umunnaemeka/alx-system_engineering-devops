@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# Script that runs whoami command under an used passed
+# A Bash script that accepts one argument
+
+sudo -u "$1" 'whoami'
